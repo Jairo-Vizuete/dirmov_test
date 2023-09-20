@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: dirmov_app
+    restart: always
+    build: .
+    ports:
+      - '5173:5173'
+    # volumes:
+    #   - .:/app
