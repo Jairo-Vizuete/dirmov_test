@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  api:
-    container_name: dirmov_app
+  dirmov:
+    container_name: dirmov_app_test
     restart: always
     build: .
     ports:
